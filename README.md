@@ -2,19 +2,20 @@
 
 Download-only repository: releases are published here by the build pipeline; there is no source code.
 
-## Latest: v1.0.0 (2026-10-14)
+## Latest: v0.0.0 (2026-10-14)
 
 - [MuAnarchyLauncher.exe](https://github.com/muanarchy/releases-launcher/releases/latest/download/MuAnarchyLauncher.exe)
 
-[Release page](https://github.com/muanarchy/releases-launcher/releases/tag/v1.0.0) · [all versions](https://github.com/muanarchy/releases-launcher/releases). Every release lists the SHA-256 of its files.
+[Release page](https://github.com/muanarchy/releases-launcher/releases/tag/v0.0.0) · [all versions](https://github.com/muanarchy/releases-launcher/releases). Every release lists the SHA-256 of its files.
 
-## Change log of v1.0.0
+## Change log of v0.0.0
 
-#### Launcher v1.0.0
+#### Launcher v0.0.0
 
-Commit 0b49733. One file: run `MuAnarchyLauncher.exe`, no installer and no .NET needed.
+Commit ce03eeb. One file: run `MuAnarchyLauncher.exe`, no installer and no .NET needed.
 
 #### Changes
+- CI: note where releases are published (retrigger with 0.0.x numbering) (ce03eeb)
 - CI: README script accepts a clone URL in RELEASES_REPO (0b49733)
 - Docs: setting names (41cfc20)
 - Split releases into per-component repos (client/launcher) with plain vX.Y.Z tags (06a6da2)
