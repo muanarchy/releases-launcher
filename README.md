@@ -2,11 +2,11 @@
 
 Download-only repository: releases are published here by the build pipeline; there is no source code.
 
-## Latest: v0.0.10 (2026-10-19)
+## Latest: v0.0.11 (2026-10-20)
 
 - [MuAnarchyLauncher.exe](https://github.com/muanarchy/releases-launcher/releases/latest/download/MuAnarchyLauncher.exe)
 
-[Release page](https://github.com/muanarchy/releases-launcher/releases/tag/v0.0.10) · [all versions](https://github.com/muanarchy/releases-launcher/releases). Every release lists the SHA-256 of its files.
+[Release page](https://github.com/muanarchy/releases-launcher/releases/tag/v0.0.11) · [all versions](https://github.com/muanarchy/releases-launcher/releases). Every release lists the SHA-256 of its files.
 
 ## Windows warns about the download?
 
@@ -16,12 +16,14 @@ New or rarely downloaded files get a SmartScreen / browser warning ("isn't commo
 - Check the file if you like: its SHA-256 is in `version.txt` on the release page.
 - The launcher updates itself and the mod afterwards, so this only happens on the first download.
 
-## Change log of v0.0.10
+## Change log of v0.0.11
 
-#### Launcher v0.0.10
+#### Launcher v0.0.11
 
-Commit 9836b11. One file: run `MuAnarchyLauncher.exe`, no installer and no .NET needed.
+Commit cdb7ea1. One file: run `MuAnarchyLauncher.exe`, no installer and no .NET needed.
 
-#### Changes since v0.0.9
-- Default Admin API address http://127.0.0.1:5080 (localhost tries ::1 first and hangs ~21 s with WSL mirrored networking) (9836b11)
+#### Changes since v0.0.10
+- CLAUDE.md: Language setting (cdb7ea1)
+- Language dropdown on the Connection tab (Default, English, Portuguese) and About text (0845d83)
+- Client data sync: optional Language setting, ?lang= on the manifest and override downloads, applied language and release recorded (c5b4686)
 
